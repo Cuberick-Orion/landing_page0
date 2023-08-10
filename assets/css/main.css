@@ -1795,6 +1795,12 @@ audio {
 /* tooltip */
 
 .wrapper-t {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
     cursor: help;
     position: relative;
     text-align: center;
@@ -1831,12 +1837,24 @@ audio {
     -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
     border-radius: 15px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 
 /* This bridges the gap so you can mouse into the tooltip without it disappearing */
 
 .wrapper-t .tooltip:before {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
     bottom: -20px;
     content: " ";
     display: block;
@@ -1847,6 +1865,12 @@ audio {
 }
 
 .wrapper-t:hover .tooltip {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
     opacity: 1;
     pointer-events: auto;
     -webkit-transform: translateY(0px);
