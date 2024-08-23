@@ -9,7 +9,7 @@
 
 <head>
 
-    <title>Letter song</title>
+    <title>&#x1F3BC</title>
 
     <!-- no cache -->
     <meta http-equiv="cache-control" content="max-age=0" />
@@ -74,40 +74,18 @@
         <div class="Card2 ph1">
             <div class="overlay">
 
-                <p class="summary">
-                    10年後の私へ
-                    <br> Lyric: doriko
-                    <br> Remaster ver. 2012
-                    <br>
-                    <br>
-                    <br>
-
-                </p>
-
-                <p class="summary">
-                    過ぎし日々に　想いを預け
-                    <br> 時間だけ　ただ追いかけてく
-                    <br> 背に寄り添った　誰かの夢に
-                    <br> 振り向ける日がいつか来るのかな
-                </p>
-
-                <p class="summary">
-                    <br> …
-                </p>
                 <div class="padding">
                     <div class="container" onclick="toggleAudio()">
                         <audio preload="metadata" controls controlslist="nodownload">
-										<source src="assets/media/lettersong.mp3" type="audio/mpeg">
+										<source src="assets/media/Welcome to Fantasyland!.mp3" type="audio/mpeg">
 										Your browser does not support the audio tag.
 									</audio>
                         <div class="play-button"><span class="duration">0:00</span></div>
                     </div>
                     <p class="summary">
-                        <br>
-                        <br>
                         <div class="wrapper-t">
-                            feat. credit
-                            <div class="tooltip">nicovideo.jp/watch/sm3771514; youtu.be/RFBVaGjEg4M</div>
+                            <p><a href="https://open.spotify.com/track/2CcVFp1fkV2pO4lL11oz6O">credit</a></p>
+                            <div class="tooltip">Yu-Peng Chen ©️ &#183; 2024</div>
                         </div>
                     </p>
                 </div>
@@ -148,7 +126,7 @@
         audio.onloadedmetadata = () => {
             let minutes = Math.floor(audio.duration / 60)
             let seconds = Math.floor(audio.duration - minutes * 60)
-            audioDuration.innerHTML = `${minutes}:${seconds}`
+            audioDuration.innerHTML = `&#x1F3BC  ${minutes}:${seconds}`
         }
     </script>
 
